@@ -1,0 +1,3 @@
+[submodule "scad-lib"]
+	path = scad-lib
+	url = git@github.com:kakudo415/scad-lib.git
