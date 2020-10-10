@@ -10,7 +10,7 @@ module line(w, l) {
 }
 
 linear_extrude(50) fillet(2.5) {
-    line(5, 50);
-    x(50) rotate(120) line(5, 45);
-    rotate(120) line(5, 5);
+    line(5, 75);
+    x(75) rotate(135) line(5, 75-8.2/2); // 8.2mm = Pixel 4 Thickness
+    rotate(135) line(5, 7.5);
 }
