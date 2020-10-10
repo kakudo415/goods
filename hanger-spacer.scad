@@ -6,7 +6,7 @@ module clamp() {
     difference() {
         square([10, 10], true);
         square([6, 3], true);
-        y(-2) square([3, 6], true);
+        y(-2) square([5, 6], true);
     }
 }
 
